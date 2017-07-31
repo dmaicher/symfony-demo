@@ -16,6 +16,7 @@ before_install:
 
 install:
   - composer install
+  - cp .env.dist .env
 
 script:
   - ./vendor/bin/simple-phpunit
