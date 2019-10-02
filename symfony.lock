@@ -222,6 +222,12 @@
     "symfony/dotenv": {
         "version": "4.2-dev"
     },
+    "symfony/error-handler": {
+        "version": "5.0-dev"
+    },
+    "symfony/error-renderer": {
+        "version": "5.0-dev"
+    },
     "symfony/event-dispatcher": {
         "version": "4.2-dev"
     },

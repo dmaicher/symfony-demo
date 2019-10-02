@@ -3,7 +3,8 @@
     "license": "MIT",
     "type": "project",
     "description": "Symfony Demo Application",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^7.1.3",
         "ext-pdo_sqlite": "*",
@@ -86,7 +87,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": true,
-            "require": "4.3.*"
+            "require": "4.4.*"
         }
     }
 }
